@@ -14,6 +14,6 @@
 .background {
   width: 80vw;
   height: 80vh;
-  background: linear-gradient(-20deg, #ff5733 50%, #33b5ff 50%);
+  background: linear-gradient(-20deg, #f1f1ff 50%, #33b5ff 50%);
 }
 </style>
