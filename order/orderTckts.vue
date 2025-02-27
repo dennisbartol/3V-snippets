@@ -13,6 +13,7 @@
 
 <script>
 import { ref } from vue; 
+import axios from "axios"; 
 
 const ticketCount = ref(1);
 const isLoading = ref(false); 
