@@ -17,7 +17,7 @@ import axios from "axios";
 
 const ticketCount = ref(1);
 const isLoading = ref(false); 
-const apiUrl = "Your-api-address;"
+const apiUrl = "https://www.your-api-address.net;"
 
 const buyTickets  { 
     try {
