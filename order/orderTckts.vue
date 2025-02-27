@@ -29,7 +29,7 @@ const buyTickets  {
       });
 
       alert(`Succesvol ${ticketCount.value} tickets gekocht!`);
-      catch (error) { 
+      } catch (error) { 
         alert("Fout bij het aanschaffen van tickets. Probeer het opnieuw.");
       }
       finally {
