@@ -66,6 +66,7 @@ export default {
   background-color: dodgerblue; 
   color: ghostwhite; 
   font-weight: bold; 
+  border-radius: 6px; 
   border: none; 
   cursor: pointer; 
 }
