@@ -66,6 +66,7 @@ export default {
   color: ghostwhite; 
   border: none; 
   cursor: pointer; 
+}
 
 #buy-button:disabled { 
   background-color: red; 
