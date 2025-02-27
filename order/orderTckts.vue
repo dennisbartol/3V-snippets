@@ -28,14 +28,14 @@ const buyTickets  {
         tickets: ticketCount.value, 
       });
 
+      alert(`Succesvol ${ticketCount.value} tickets gekocht!`);
       catch (error) { 
-        alert("Fout bij het aanschaffen van tickets. Probeer het opnieuw");
+        alert("Fout bij het aanschaffen van tickets. Probeer het opnieuw.");
       }
       finally {
         isLoading.value = false; 
       }
-  
-      }
+ 
   };
 </script> 
 
