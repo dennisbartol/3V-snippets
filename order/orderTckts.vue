@@ -28,4 +28,16 @@ const buyTickets  {
 
 <style scoped>
 
+#ticket-container { 
+  display: flex; 
+flex-direction: column; 
+align-items: center; 
+}
+
+#ticket-controls {
+
+}
+
+#buy-button>
+  
 </style>
