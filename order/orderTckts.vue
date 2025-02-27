@@ -20,7 +20,7 @@ const ticketCount = ref(1);
 const isLoading = ref(false); 
 const apiUrl = "https://www.your-api-address.net";
 
-const buyTickets  { 
+const buyTickets = async() =>  { 
     try {
      isLoading.value = true; 
 
