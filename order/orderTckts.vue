@@ -63,6 +63,6 @@ const buyTickets = async () =>  {
   cursor: pointer; 
 
 #buy-button:disabled { 
-  backgrond-color: red; 
+  background-color: red; 
 }
 </style>
