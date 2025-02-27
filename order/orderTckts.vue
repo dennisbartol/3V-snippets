@@ -30,14 +30,24 @@ const buyTickets  {
 
 #ticket-container { 
   display: flex; 
-flex-direction: column; 
-align-items: center; 
+  flex-direction: column; 
+  align-items: center; 
 }
 
 #ticket-controls {
-
+  display: flex; 
+  align-items: center; 
+  gap: 1em; 
 }
 
 #buy-button>
-  
+  padding: 1.5em; 
+  background-color: dodgerblue; 
+  color: ghostwhite; 
+  border: none; 
+  cursor: pointer; 
+
+#buy-button:disabled { 
+  backgrond-color: red; 
+}
 </style>
