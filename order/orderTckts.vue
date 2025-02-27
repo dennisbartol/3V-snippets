@@ -4,7 +4,7 @@
   </div>
 
   <button @click="buyTickets" :disabled="isLoading" id="buy-button">
-
+    {{ isLoading ? "Verwerken..." : `Koop ${ticketCount} Ticket(s)` }}
   </button>
 </template>
 
