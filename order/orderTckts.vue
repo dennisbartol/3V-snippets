@@ -65,6 +65,7 @@ export default {
   padding: 1em; 
   background-color: dodgerblue; 
   color: ghostwhite; 
+  font-weight: bold; 
   border: none; 
   cursor: pointer; 
 }
