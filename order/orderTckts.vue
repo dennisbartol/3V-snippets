@@ -60,6 +60,11 @@ export default {
   gap: 1em; 
 }
 
+button { 
+ border-radius: 6px; 
+ padding: 0.5em;
+}
+
 #buy-button {
   margin-top: 1em;
   padding: 1em; 
