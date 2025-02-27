@@ -62,7 +62,12 @@ export default {
 
 button { 
  border-radius: 6px; 
- padding: 0.5em;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 14px;
+ padding-right: 14px;
+ background-color: #222;
+ color: ghostwhite;
 }
 
 #buy-button {
