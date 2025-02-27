@@ -55,7 +55,7 @@ const buyTickets = async () =>  {
   gap: 1em; 
 }
 
-#buy-button>
+#buy-button
   padding: 1.5em; 
   background-color: dodgerblue; 
   color: ghostwhite; 
