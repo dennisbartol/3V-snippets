@@ -6,8 +6,8 @@
 <script>
 import { ref } from vue; 
 
-const 
-const
+const ticketCount = ref(1);
+const isLoading = ref(false); 
 const apiUrl = "Your-api-address;"
 
 const buyTickets  { 
