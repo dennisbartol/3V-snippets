@@ -16,11 +16,13 @@
 import { ref } from "vue"; 
 import axios from "axios"; 
 
-const ticketCount = ref(1);
-const isLoading = ref(false); 
-const apiUrl = "https://www.your-api-address.net";
+export default { 
+  setup() {
+    const ticketCount = ref(1);
+    const isLoading = ref(false); 
+    const apiUrl = "https://www.your-api-address.net";
 
-const buyTickets = async () =>  { 
+    const buyTickets = async () =>  { 
     try {
      isLoading.value = true; 
 
@@ -36,8 +38,11 @@ const buyTickets = async () =>  {
       finally {
         isLoading.value = false; 
       }
- 
-  };
+    };
+
+     return { ticketCount, isLoading, buyTickets } ; 
+   },
+};
 </script> 
 
 
@@ -55,7 +60,7 @@ const buyTickets = async () =>  {
   gap: 1em; 
 }
 
-#buy-button
+#buy-button {
   padding: 1.5em; 
   background-color: dodgerblue; 
   color: ghostwhite; 
