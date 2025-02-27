@@ -1,5 +1,11 @@
 <template> 
+  <div id="ticket-container">
 
+  </div>
+
+  <button @click="buyTickets" :disabled="isLoading" id="buy-button">
+
+  </button>
 </template>
 
 
