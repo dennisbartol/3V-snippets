@@ -1,11 +1,13 @@
 <template> 
   <div id="ticket-container">
+   <div id="ticket-controls">
+     <button @click="tickedCount = Math.max(1, ticketCount -1)">-</button>
+  
 
-  </div>
-
-  <button @click="buyTickets" :disabled="isLoading" id="buy-button">
+   <button @click="buyTickets" :disabled="isLoading" id="buy-button">
     {{ isLoading ? "Verwerken..." : `Koop ${ticketCount} Ticket(s)` }}
-  </button>
+   </button>
+  </div>
 </template>
 
 
