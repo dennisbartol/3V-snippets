@@ -19,10 +19,23 @@ const isLoading = ref(false);
 const apiUrl = "Your-api-address;"
 
 const buyTickets  { 
+    try {
+     isLoading.value = true; 
 
+      const response = await axios.post(apiUrl, {
+        customerId: 1234567890, 
+        tickets: ticketCount.value, 
+      });
 
-
-}
+      catch (error) { 
+        alert("Fout bij het aanschaffen van tickets. Probeer het opnieuw");
+      }
+      finally {
+        isLoading.value = false; 
+      }
+  
+      }
+  };
 </script> 
 
 
