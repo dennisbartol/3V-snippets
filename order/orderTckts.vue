@@ -61,7 +61,8 @@ export default {
 }
 
 #buy-button {
-  padding: 1.5em; 
+  margin-top: 1em;
+  padding: 1em; 
   background-color: dodgerblue; 
   color: ghostwhite; 
   border: none; 
