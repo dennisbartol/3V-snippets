@@ -1,9 +1,9 @@
 <template> 
   <div id="ticket-container">
    <div id="ticket-controls">
-     <button @click="tickedCount = Math.max(1, ticketCount -1)">-</button>
-  
-
+     <button @click="ticketCount = Math.max(1, ticketCount -1)">-</button>
+     <button @click="ticketCount++">+</button>
+  </div>
    <button @click="buyTickets" :disabled="isLoading" id="buy-button">
     {{ isLoading ? "Verwerken..." : `Koop ${ticketCount} Ticket(s)` }}
    </button>
