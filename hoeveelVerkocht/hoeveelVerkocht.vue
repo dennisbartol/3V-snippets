@@ -21,6 +21,11 @@ const addTicket = () => {
   count.value = tickets.value.length; 
 }
 
+const startCounting = () => { 
+  if (!interval) { 
+      interval = setInterval(addTicket, 2200);
+  }
+}
 
 const resetCount = () => {
   tickets.value = [];
