@@ -1,8 +1,10 @@
 <template>
 
+<div id="vk-container">
 <button @click="addTicket">Koop een ticket</button>
 <button @click="resetCount">Reset</button>
 <p>Het aantal tickets dat al is verkocht: {{ count }} </p>
+</div> 
   
 </template>
 
