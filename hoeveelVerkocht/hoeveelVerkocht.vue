@@ -20,6 +20,12 @@ const addTicket = () => {
   tickets.value.push({ id: tickets.value.length + 1, timestamp: new Date()    )
   count.value = tickets.value.length; 
 }
+
+
+const resetCount = () => {
+  tickets.value = [];
+  count.value = 0; 
+}
   
 </script>
 
