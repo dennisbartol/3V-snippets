@@ -17,7 +17,7 @@ const tickets = ref ([]);
 let interval = null; 
 
 const addTicket = () => {
-  tickets.value.push({ id: tickets.value.length + 1, timestamp: new Date().toLocaleTimeString});
+  tickets.value.push({ id: tickets.value.length + 1, timestamp: new Date()});
   count.value = tickets.value.length; 
 }
 
