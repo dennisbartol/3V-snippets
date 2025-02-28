@@ -28,7 +28,7 @@ const startCounting = () => {
 }
 
 const stopCounting = () => {
-  if(interval) { 
+  if (interval) { 
     clearInterval(interval) 
     interval = null; 
   }
