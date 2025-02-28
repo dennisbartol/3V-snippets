@@ -14,7 +14,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
 const count = ref(0); 
 const tickets = ref ([]);
 
-let intervall = null; 
+let interval = null; 
 
 const addTicket = () => {
   tickets.value.push({ id: tickets.value.length + 1, timestamp: new Date().toLocaleTimeString});
