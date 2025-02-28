@@ -17,7 +17,7 @@ const tickets = ref ([]);
 let intervall = null; 
 
 const addTicket = () => {
-
+  tickets.value.push({ id: tickets.value.length
 }
   
 </script>
