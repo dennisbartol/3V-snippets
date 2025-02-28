@@ -26,6 +26,9 @@ const resetCount = () => {
   tickets.value = [];
   count.value = 0; 
 }
+
+onMounted(startCounting);
+onUnMounted(stopCounting); 
   
 </script>
 
