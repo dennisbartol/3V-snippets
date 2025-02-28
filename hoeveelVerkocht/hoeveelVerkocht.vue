@@ -1,12 +1,19 @@
 <template>
 
-  
 <button @click="addTicket">Koop een ticket</button>
 <button @click="resetCount">Reset</button>
 <p>Het aantal tickets dat al is verkocht: {{ count }} </p>
+  
 </template>
 
 <script>
+import { ref, onMounted, onUnMounted } from 'vue'; 
+
+const count = ref(0); 
+const tickets = ref ([]);
+
+let intervall = null; 
+  
 </script>
 
 <style scoped>
