@@ -15,6 +15,10 @@ const count = ref(0);
 const tickets = ref ([]);
 
 let intervall = null; 
+
+const addTicket = () => {
+
+}
   
 </script>
 
