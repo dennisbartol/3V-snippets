@@ -41,7 +41,7 @@ const resetCount = () => {
 }
 
 onMounted(startCounting);
-onUnMounted(stopCounting); 
+onUnmounted(stopCounting); 
   
 </script>
 
