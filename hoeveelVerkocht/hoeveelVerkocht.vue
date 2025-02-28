@@ -8,7 +8,7 @@
   
 </template>
 
-<script>
+<script setup>
 import { ref, onMounted, onUnmounted } from 'vue'; 
 
 const count = ref(0); 
