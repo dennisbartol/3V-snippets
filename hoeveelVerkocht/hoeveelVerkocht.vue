@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { ref, onMounted, onUnMounted } from 'vue'; 
+import { ref, onMounted, onUnmounted } from 'vue'; 
 
 const count = ref(0); 
 const tickets = ref ([]);
