@@ -27,6 +27,14 @@ const startCounting = () => {
   }
 }
 
+const stopCounting = () => {
+  if(interval) { 
+    clearInterval(interval) 
+    interval = null; 
+  }
+}
+  
+
 const resetCount = () => {
   tickets.value = [];
   count.value = 0; 
