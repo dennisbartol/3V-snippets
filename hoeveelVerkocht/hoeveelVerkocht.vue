@@ -1,4 +1,8 @@
 <template>
+
+<button @click="addTicket">Koop een ticket</button>
+
+<p>Het aantal tickets dat al is verkocht: {{ count }} </p>
 </template>
 
 <script>
